@@ -1,6 +1,6 @@
 class ChattyStudent < Student
 
-def hello
+def hello(*)
   super
   @hello = true
   puts "How are you doing today?
@@ -12,8 +12,8 @@ def hello
 
 end
 
-def raise_hand
-  10.times super
+def raise_hand(*)
+  10.times { puts super}
 #end
 end
 end

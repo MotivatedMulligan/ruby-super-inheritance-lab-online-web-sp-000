@@ -2,7 +2,7 @@ class ChattyStudent < Student
 
 def hello#(*)
 
-  super ("Hey there! I'm so excited to learn stuff.")
+  super# ("Hey there! I'm so excited to learn stuff.")
   puts "How are you doing today?
   I'm okay, but I'm kind of tired.
   Did you watch The Walking Dead last night?

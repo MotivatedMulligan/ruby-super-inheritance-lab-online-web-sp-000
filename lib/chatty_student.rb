@@ -2,7 +2,7 @@ class ChattyStudent < Student
 
 def hello(*)
   #super
-  #@hello = true 
+  #@hello = true
   return   super "How are you doing today?
   I'm okay, but I'm kind of tired.
   Did you watch The Walking Dead last night?
